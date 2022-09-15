@@ -1,0 +1,22 @@
+colors:
+  # Default colors
+  primary:
+    background: '#151515'
+    foreground: '#dddddd'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#EC4F4C'
+    green:   '#4FE47C'
+    yellow:  '#E3E88E'
+    blue:    '#8BDBF0'
+    magenta: '#DD61A1'
+    cyan:    '#8DDBF0'
+    white:   '#dddddd'
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+  # size: 6.0
