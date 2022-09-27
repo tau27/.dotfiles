@@ -1,11 +1,11 @@
-super + Return
-    kitty
+super + {_,shift + }Return
+    {st, bspc node -s biggest.local}
 
 super + shift + {e,r}
     bspc {quit,wm -r}
 
 super + d
-    wofi --show drun
+    rofi -show run
 
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
@@ -14,10 +14,10 @@ super + {alt,shift} + q
 	bspc node -{k,c}
 
 super + x
-    betterlockscreen -l
+    xscreensaver-command -lock
 
 super + shift + x
-    betterlockscreen -l & systemctl suspend
+    xscreensaver-command -lock & systemctl suspend
 
 @Print
     scrot ~/screenshots/scr.png
@@ -28,5 +28,17 @@ shift + @Print
 super + e
     pkill -USR1 -x sxhkd
 
-super + {f, t, space}
+super + shift + {f, t, space}
     bspc node -t {fullscreen, tiled, floating}
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+super + ctrl + space
+	bspc node -p cancel
+
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel

@@ -1,5 +1,5 @@
 super + {_,shift + }Return
-    {alacritty, bspc node -s biggest.local}
+    {st, bspc node -s biggest.local}
 
 super + shift + {e,r}
     bspc {quit,wm -r}
@@ -28,5 +28,17 @@ shift + @Print
 super + e
     pkill -USR1 -x sxhkd
 
-super + {f, t, space}
+super + shift + {f, t, space}
     bspc node -t {fullscreen, tiled, floating}
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+super + ctrl + space
+	bspc node -p cancel
+
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
