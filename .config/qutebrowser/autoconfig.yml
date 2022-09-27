@@ -19,5 +19,37 @@ settings:
     global: webengine
   changelog_after_upgrade:
     global: minor
+  colors.downloads.bar.bg:
+    global: black
+  colors.downloads.error.bg:
+    global: '#BF616A'
+  colors.downloads.error.fg:
+    global: white
+  colors.downloads.start.bg:
+    global: '#D08770'
+  colors.downloads.start.fg:
+    global: white
+  colors.downloads.stop.bg:
+    global: '#A3BE8C'
+  content.blocking.hosts.lists:
+    global:
+    - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  content.notifications.enabled:
+    https://frameboxxindore.com: false
+    https://w.qiwi.com: true
+    https://www.youtube.com: false
+  fonts.prompts:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.statusbar:
-    global: default_size Jet-Brains-Mono
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  url.default_page:
+    global: https://serx.ml/
+  url.incdec_segments:
+    global:
+    - path
+    - query
+  url.searchengines:
+    global:
+      DEFAULT: https://serx.ml/search?q={}
+  url.start_pages:
+    global: https://serx.ml/
