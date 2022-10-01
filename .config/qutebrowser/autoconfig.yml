@@ -34,10 +34,15 @@ settings:
   content.blocking.hosts.lists:
     global:
     - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  content.media.audio_capture:
+    https://discord.com: true
+    https://webcammictest.com: true
   content.notifications.enabled:
     https://frameboxxindore.com: false
     https://w.qiwi.com: true
     https://www.youtube.com: false
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true
   fonts.prompts:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.statusbar:
