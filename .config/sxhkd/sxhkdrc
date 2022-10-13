@@ -1,5 +1,5 @@
-super + {_,shift + }Return
-    {st, bspc node -s biggest.local}
+super + Return
+    st
 
 super + shift + {e,r}
     bspc {quit,wm -r}
@@ -42,3 +42,9 @@ super + ctrl + space
 
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+super + shift + s
+    mpv --fs ~/Saul\ goodman\ 3d\ \[gDjMZvYWUdo\].mp4
+
+super + shift + m
+    ~/.scripts/music/main.sh

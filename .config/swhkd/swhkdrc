@@ -1,5 +1,5 @@
 super + {_,shift + }Return
-    {st, bspc node -s biggest.local}
+    {foot, bspc node -s biggest.local}
 
 super + shift + {e,r}
     bspc {quit,wm -r}
@@ -26,7 +26,7 @@ shift + @Print
     scrot -s ~/screenshots/scr.png
 
 super + e
-    pkill -USR1 -x sxhkd
+    pkill -USR1 -x swhkd
 
 super + shift + {f, t, space}
     bspc node -t {fullscreen, tiled, floating}
@@ -42,3 +42,6 @@ super + ctrl + space
 
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+super + shift + s
+    mpv --fs ~/Saul\ goodman\ 3d\ \[gDjMZvYWUdo\].mp4

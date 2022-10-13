@@ -27,5 +27,5 @@ case $1 in
         pamixer --toggle-mute
         ;;
     *)
-        echo "${VOLUME} ${SINK}"
+        echo "${VOLUME}"
 esac

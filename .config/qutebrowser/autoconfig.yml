@@ -39,6 +39,7 @@ settings:
     https://webcammictest.com: true
   content.notifications.enabled:
     https://frameboxxindore.com: false
+    https://tvoysmartphone.ru: false
     https://w.qiwi.com: true
     https://www.youtube.com: false
   content.register_protocol_handler:
