@@ -8,4 +8,4 @@ ttle=$(zenity --entry --text="Title")
 arts=$(zenity --entry --text="Artist")
 albm=$(zenity --entry --text="Album")
 tageditor -s -n title="$ttle" artist="$arts" album="$albm" -f $name.m4a
-cp $name.m4a ~/Sync/music
+mv $name.m4a ~/Sync/music

@@ -31,9 +31,21 @@ settings:
     global: white
   colors.downloads.stop.bg:
     global: '#A3BE8C'
+  colors.statusbar.passthrough.bg:
+    global: darkblue
+  colors.webpage.bg:
+    global: null
+  colors.webpage.darkmode.enabled:
+    global: true
+  colors.webpage.darkmode.grayscale.all:
+    global: false
+  colors.webpage.preferred_color_scheme:
+    global: dark
   content.blocking.hosts.lists:
     global:
     - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  content.geolocation:
+    https://eda.yandex.ru: false
   content.media.audio_capture:
     https://discord.com: true
     https://webcammictest.com: true
@@ -41,7 +53,9 @@ settings:
     https://frameboxxindore.com: false
     https://tvoysmartphone.ru: false
     https://w.qiwi.com: true
+    https://www.reddit.com: true
     https://www.youtube.com: false
+    https://znaykauchit.ru: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   fonts.prompts:
