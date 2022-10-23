@@ -1,0 +1,24 @@
+#!/bin/bash
+env SXHKD_SHELL=/bin/sh sxhkd &
+exec picom &
+exec syncthing &
+$HOME/.config/polybar/launch.sh &
+exec pipewire &
+exec pipewire-pulse &
+exec setxkbmap -layout "us,ru" -model "pc104" -option "grp:caps_toggle,grp_led:none,terminate:ctrl_alt_bksp,compose:rwin" &
+feh --bg-fill ~/walp/wallpaper.jpg &
+
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+bspc rule -a firefox desktop=^2
+
+bspc config normal_border_color "#23252e"
+bspc config active_border_color "#23252e"
+bspc config focused_border_color "#f9f8fe"
+
+bspc config border_radius 0
+bspc config border_width 0
+bspc config focus_follows_pointer true
+bspc config pointer_modifier super
+
+bspc config presel_feedback_color "#FF1111"
+bspc config split_ratio 0.5

@@ -1,0 +1,47 @@
+super + {_,shift + }Return
+    {foot, bspc node -s biggest.local}
+
+super + shift + {e,r}
+    bspc {quit,wm -r}
+
+super + d
+    rofi -show run
+
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+super + {alt,shift} + q
+	bspc node -{k,c}
+
+super + x
+    xscreensaver-command -lock
+
+super + shift + x
+    xscreensaver-command -lock & systemctl suspend
+
+@Print
+    scrot ~/screenshots/scr.png
+
+shift + @Print
+    scrot -s ~/screenshots/scr.png
+
+super + e
+    pkill -USR1 -x swhkd
+
+super + shift + {f, t, space}
+    bspc node -t {fullscreen, tiled, floating}
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+super + ctrl + space
+	bspc node -p cancel
+
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+super + shift + s
+    mpv --fs ~/Saul\ goodman\ 3d\ \[gDjMZvYWUdo\].mp4
