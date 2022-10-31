@@ -1,6 +1,6 @@
 /*НАСТРОЙКИ ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
 * {
-    font-family: Roboto, Helvetica, Arial, sans-serif, otf-font-awesome; /*ШРИФТЫ*/
+    font-family: JetBrainsMono Nerd Font Mono; /*ШРИФТЫ*/
     font-size: 12px; /*РАЗМЕР ШРИФТА*/
     min-height: 0; /*МИНИМАЛЬНАЯ ВЫСОТА*/
     border-radius: 0; /*СКРУГЛЕНИЕ*/

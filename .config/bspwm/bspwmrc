@@ -5,6 +5,7 @@ exec syncthing &
 $HOME/.config/polybar/launch.sh &
 exec pipewire &
 exec pipewire-pulse &
+exec pipewire-media-session &
 exec setxkbmap -layout "us,ru" -model "pc104" -option "grp:caps_toggle,grp_led:none,terminate:ctrl_alt_bksp,compose:rwin" &
 feh --bg-fill ~/walp/wallpaper.jpg &
 

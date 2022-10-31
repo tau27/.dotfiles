@@ -1,0 +1,2 @@
+fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+         \ show-sixel %c %pw %ph %pd

@@ -1,9 +1,9 @@
 {
 //СЛОЙ НА КОТОРОМ БУДЕН НАХОДИТСЯ WAYBAR. ПО ДЕФОЛТУ НА САМОМ ВЕРХНЕМ:
-    // "layer": "top",
+    "layer": "top",
 
 //ПОЛОЖЕНИЕ ПАНЕЛИ НА ЭКРАНЕ TOP, BOTTOM, LEFT, RIGHT:
-    // "position": "bottom",
+    "position": "top",
 
 //ВЫСОТА ПАНЕЛИ:
     "height": 25,
@@ -13,47 +13,20 @@
 
 //МОДУЛИ СЛЕВА, ПО ЦЕНТРУ, СПРАВА:
     "modules-left": [
-"river/workspaces",
-"custom/right",
-"custom/right2",
-"river/window",
-"custom/right",
-"custom/right2",
-"wlr/taskbar",
-"custom/right",
-"custom/right2",
-"custom/right",
-"custom/right2",
-"custom/right"
+"hyprland/workspaces",
     ],
 
     "modules-center": [
-"custom/left",
-"custom/left2",
-"custom/left",
-"custom/left2",
-"custom/left",
 "custom/cmus",
-"custom/right",
-"custom/right2",
-"custom/right",
-"custom/right2",
-"custom/right"
     ],
 
     "modules-right": [
-"custom/left", "custom/left2", "custom/left", "custom/left2", "custom/left",
 "cpu",
-"custom/left2", "custom/left",
 "memory",
-"custom/left2", "custom/left",
 "tray",
-"custom/left2", "custom/left",
 "pulseaudio",
 "custom/lang",
-"custom/left2", "custom/left",
 "river/language",
-"custom/left2", "custom/left",
 "clock"
     ],
 

@@ -33,6 +33,8 @@ settings:
     global: '#A3BE8C'
   colors.statusbar.passthrough.bg:
     global: darkblue
+  colors.statusbar.progress.bg:
+    global: white
   colors.webpage.bg:
     global: null
   colors.webpage.darkmode.enabled:
@@ -62,6 +64,10 @@ settings:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.statusbar:
     global: default_size JetBrainsMono-Nerd-Font-Mono
+  prompt.radius:
+    global: 8
+  qt.force_platform:
+    global: null
   url.default_page:
     global: https://serx.ml/
   url.incdec_segments:
