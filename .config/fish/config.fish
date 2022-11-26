@@ -20,3 +20,5 @@ import os
 path = os.environ['PATH'].split(':')
 print(':'.join(sorted(set(path), key=path.index)))
 " )
+
+export QT_QPA_PLATFORMTHEME=qt5ct

@@ -6,91 +6,45 @@
 
 config_version: 2
 settings:
-  aliases:
-    global:
-      q: close
-      qa: quit
-      w: session-save
-      wq: quit --save
-      wqa: quit --save
   auto_save.session:
     global: true
-  backend:
-    global: webengine
-  changelog_after_upgrade:
-    global: minor
-  colors.completion.category.border.top:
-    global: black
-  colors.completion.category.fg:
-    global: white
-  colors.completion.even.bg:
-    global: '#333333'
-  colors.completion.fg:
-    global:
-    - white
-    - white
-    - white
-  colors.completion.item.selected.border.top:
-    global: '#bbbb00'
-  colors.completion.scrollbar.fg:
-    global: white
-  colors.downloads.bar.bg:
-    global: black
-  colors.downloads.error.bg:
-    global: '#BF616A'
-  colors.downloads.error.fg:
-    global: white
-  colors.downloads.start.bg:
-    global: '#D08770'
-  colors.downloads.start.fg:
-    global: white
-  colors.downloads.stop.bg:
-    global: '#A3BE8C'
-  colors.statusbar.passthrough.bg:
-    global: darkblue
-  colors.statusbar.progress.bg:
-    global: white
-  colors.tabs.even.fg:
-    global: white
-  colors.webpage.bg:
-    global: null
-  colors.webpage.darkmode.algorithm:
-    global: brightness-rgb
   colors.webpage.darkmode.enabled:
     global: true
   colors.webpage.darkmode.grayscale.all:
-    global: false
-  colors.webpage.darkmode.threshold.background:
-    global: 0
+    global: true
   colors.webpage.preferred_color_scheme:
     global: dark
-  content.blocking.hosts.lists:
-    global:
-    - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-  content.geolocation:
-    https://eda.yandex.ru: false
   content.media.audio_capture:
     https://discord.com: true
-    https://webcammictest.com: true
   content.notifications.enabled:
-    https://frameboxxindore.com: false
-    https://tvoysmartphone.ru: false
-    https://w.qiwi.com: true
+    https://qiwi.com: true
     https://www.reddit.com: true
-    https://www.youtube.com: false
-    https://znaykauchit.ru: false
-  content.register_protocol_handler:
-    https://mail.google.com?extsrc=mailto&url=%25s: true
+  fonts.completion.category:
+    global: bold default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.completion.entry:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.debug_console:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.downloads:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.hints:
+    global: bold default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.keyhint:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.messages.error:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.messages.info:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.messages.warning:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.prompts:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.statusbar:
     global: default_size JetBrainsMono-Nerd-Font-Mono
-  prompt.radius:
-    global: 8
-  qt.force_platform:
-    global: null
-  tabs.wrap:
-    global: true
+  fonts.tabs.selected:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.tabs.unselected:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
   url.default_page:
     global: http://localhost:8080/
   url.incdec_segments:
