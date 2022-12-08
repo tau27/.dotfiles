@@ -1,0 +1,4 @@
+set recolor
+set recolor-lightcolor \#2E3440
+set recolor-keephue
+set default-bg \#000000

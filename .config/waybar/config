@@ -38,7 +38,7 @@
     "format": " {}",
     "max-length": 45,
     "interval": 10,
-    "exec": "cmus-remote -C \"format_print '%F'\"",
+    "exec": "echo $(cmus-remote -Q | grep artist | head -n 3 | sort -r | cut -d ' ' -f 3-) - $(cmus-remote -Q | grep title | head -n 3 | sort -r | cut -d ' ' -f 3-)",
     "exec-if": "pgrep cmus",
     "on-click": "cmus-remote -u",
     "on-scroll-up": "cmus-remote --next",

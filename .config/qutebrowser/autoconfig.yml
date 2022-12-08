@@ -14,11 +14,19 @@ settings:
     global: true
   colors.webpage.preferred_color_scheme:
     global: dark
+  content.geolocation:
+    https://karofilm.ru: false
+    https://kinoteatr.ru: false
+    https://www.mirage.ru: false
   content.media.audio_capture:
     https://discord.com: true
   content.notifications.enabled:
+    https://prostatitno.ru: false
     https://qiwi.com: true
+    https://www.litres.ru: false
     https://www.reddit.com: true
+  content.register_protocol_handler:
+    https://mail.proton.me#mailto=%25s: true
   fonts.completion.category:
     global: bold default_size JetBrainsMono-Nerd-Font-Mono
   fonts.completion.entry:
@@ -46,13 +54,13 @@ settings:
   fonts.tabs.unselected:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   url.default_page:
-    global: http://localhost:8080/
+    global: http://searx.work
   url.incdec_segments:
     global:
     - path
     - query
   url.searchengines:
     global:
-      DEFAULT: http://localhost:8080/search?q={}
+      DEFAULT: http://searx.work/search?q={}
   url.start_pages:
-    global: http://localhost:8080/
+    global: http:/searx.work/
