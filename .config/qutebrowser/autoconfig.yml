@@ -9,29 +9,45 @@ settings:
   auto_save.session:
     global: true
   colors.webpage.darkmode.enabled:
-    global: true
+    global: false
   colors.webpage.darkmode.grayscale.all:
-    global: true
+    global: false
   colors.webpage.preferred_color_scheme:
     global: dark
   content.geolocation:
     https://karofilm.ru: false
     https://kinoteatr.ru: false
+    https://www.google.com: false
     https://www.mirage.ru: false
   content.media.audio_capture:
     https://discord.com: true
   content.notifications.enabled:
+    https://app.element.io: true
+    https://mkc.clan.su: false
     https://prostatitno.ru: false
     https://qiwi.com: true
+    https://w7.fullsee.site: false
+    https://www.fotor.com: false
     https://www.litres.ru: false
     https://www.reddit.com: true
+    https://www.tinkoff.ru: true
+  content.proxy:
+    global: system
   content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: false
     https://mail.proton.me#mailto=%25s: true
+  content.site_specific_quirks.skip:
+    global:
+    - js-string-replaceall
   fonts.completion.category:
     global: bold default_size JetBrainsMono-Nerd-Font-Mono
   fonts.completion.entry:
     global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.contextmenu:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.debug_console:
+    global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.default_family:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.downloads:
     global: default_size JetBrainsMono-Nerd-Font-Mono
@@ -53,6 +69,12 @@ settings:
     global: default_size JetBrainsMono-Nerd-Font-Mono
   fonts.tabs.unselected:
     global: default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.web.family.cursive:
+    global: iralic default_size JetBrainsMono-Nerd-Font-Mono
+  fonts.web.family.fantasy:
+    global: null
+  input.mode_override:
+    global: normal
   url.default_page:
     global: http://searx.work
   url.incdec_segments:

@@ -23,6 +23,9 @@ opt.foldenable = true
 opt.foldmethod = 'marker'
 opt.foldmarker = 'region, endregion'
 g.tm = 1000
+-- g.vimtex_compiler_silent = 0
+-- g.vimtex_log_verbose = 0
+g.vimtex_quickfix_open_on_warning = 0
 
 -- Cmd
 cmd'set noswapfile'

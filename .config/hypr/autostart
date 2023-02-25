@@ -1,4 +1,5 @@
 #!/bin/bash
+waybar &
 dunst &
 swww init &
 swww img ~/.walp/Abstract-Nord.png -t center --transition-fps 60 &

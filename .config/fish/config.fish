@@ -17,6 +17,7 @@ set DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 export LANG=en_US.UTF-8
 export LC_CTYPE="ru_RU.UTF-8"
+export DRI_PRIME=1
 
 set PATH $( python -c "
 import os

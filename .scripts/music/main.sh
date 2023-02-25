@@ -1,11 +1,14 @@
 #!/bin/bash
+cd ~/.local/timpe
 lerk=$(wl-paste)
-stringZ="https://www.youtube.com/watch?v=v8YP60XOn7o&list=12313123123123123"
 finl=$(echo ${lerk::43})
 name=$(zenity --entry --text="File name")
-yt-dlp -f "ba" -o $name.m4a $finl
 ttle=$(zenity --entry --text="Title")
 arts=$(zenity --entry --text="Artist")
-albm=$(zenity --entry --text="Album")
-tageditor -s -n title="$ttle" artist="$arts" album="$albm" -f $name.m4a
-mv $name.m4a /home/gleb/.sync/Music
+yt-dlp -f "ba" -o "pasas" $finl
+mat2 pasas* --inplace
+ffmpeg -i pasas* -c:a flac $name.flac
+rm pasas*
+mat2 $name.flac --inplace
+tageditor -s -n title="$ttle" artist="$arts" album="Nope" -f $name.flac
+mv $name.flac /home/gleb/Desktop/cllbs/music/

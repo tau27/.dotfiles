@@ -60,7 +60,7 @@ local handlers =  {
     })
 }
 
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 lspc.pyright.setup {
     on_attach = on_attach,
@@ -94,5 +94,24 @@ lspc.sumneko_lua.setup {
     },
     filetypes = {
         'lua'
+    }
+}
+
+lspc.rust_analyzer.setup {
+    on_attach = on_attach,
+    handlers = handlers,
+    capabilities = capabilities,
+    filetypes = {
+        'rust',
+        'rs'
+    }
+}
+
+lspc.gopls.setup {
+    on_attach = on_attach,
+    handlers = handlers,
+    capabilities = capabilities,
+    filetypes = {
+        'go'
     }
 }
