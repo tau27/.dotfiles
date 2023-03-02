@@ -1,0 +1,336 @@
+{
+  "active_profile": 0,
+  "active_modpack": 0,
+  "profiles": [
+    {
+      "name": "Quilte",
+      "output_dir": "/home/gleb/.minecraft/mods",
+      "game_version": "1.19.3",
+      "mod_loader": "Quilt",
+      "mods": [
+        {
+          "name": "3D Skin Layers",
+          "identifier": {
+            "ModrinthProject": "zV5r3pPn"
+          }
+        },
+        {
+          "name": "AdvancementInfo",
+          "identifier": {
+            "ModrinthProject": "G1epq3jN"
+          }
+        },
+        {
+          "name": "AmbientSounds",
+          "identifier": {
+            "ModrinthProject": "fM515JnW"
+          }
+        },
+        {
+          "name": "AntiGhost",
+          "identifier": {
+            "ModrinthProject": "Jw3Wx1KR"
+          }
+        },
+        {
+          "name": "AppleSkin",
+          "identifier": {
+            "ModrinthProject": "EsAfCjCV"
+          }
+        },
+        {
+          "name": "Beenfo",
+          "identifier": {
+            "ModrinthProject": "Bta0Pt47"
+          }
+        },
+        {
+          "name": "Better Statistics Screen (Fabric)",
+          "identifier": {
+            "ModrinthProject": "n6PXGAoM"
+          }
+        },
+        {
+          "name": "BetterF3",
+          "identifier": {
+            "ModrinthProject": "8shC1gFX"
+          }
+        },
+        {
+          "name": "Blur (Fabric)",
+          "identifier": {
+            "ModrinthProject": "NK39zBp2"
+          }
+        },
+        {
+          "name": "Chunky",
+          "identifier": {
+            "ModrinthProject": "fALzjamp"
+          }
+        },
+        {
+          "name": "Clear Skies",
+          "identifier": {
+            "ModrinthProject": "xNK6XfRv"
+          }
+        },
+        {
+          "name": "ClickThrough",
+          "identifier": {
+            "ModrinthProject": "Z5b0cAlD"
+          }
+        },
+        {
+          "name": "Cloth Config API",
+          "identifier": {
+            "ModrinthProject": "9s6osm5g"
+          }
+        },
+        {
+          "name": "Concurrent Chunk Management Engine (Fabric)",
+          "identifier": {
+            "ModrinthProject": "VSNURh3q"
+          }
+        },
+        {
+          "name": "CreativeCore",
+          "identifier": {
+            "CurseForgeProject": 257814
+          }
+        },
+        {
+          "name": "Cull Leaves",
+          "identifier": {
+            "ModrinthProject": "GNxdLCoP"
+          }
+        },
+        {
+          "name": "Debugify",
+          "identifier": {
+            "ModrinthProject": "QwxR6Gcd"
+          }
+        },
+        {
+          "name": "Dynamic Crosshair",
+          "identifier": {
+            "ModrinthProject": "ZcR9weSm"
+          }
+        },
+        {
+          "name": "Dynamic FPS",
+          "identifier": {
+            "ModrinthProject": "LQ3K71Q1"
+          }
+        },
+        {
+          "name": "EntityCulling",
+          "identifier": {
+            "ModrinthProject": "NNAgCjsB"
+          }
+        },
+        {
+          "name": "Falling Leaves",
+          "identifier": {
+            "ModrinthProject": "WhbRG4iK"
+          }
+        },
+        {
+          "name": "FerriteCore",
+          "identifier": {
+            "ModrinthProject": "uXXizFIs"
+          }
+        },
+        {
+          "name": "Forge Config API Port",
+          "identifier": {
+            "ModrinthProject": "ohNO6lps"
+          }
+        },
+        {
+          "name": "ItemPhysic Full",
+          "identifier": {
+            "CurseForgeProject": 258587
+          }
+        },
+        {
+          "name": "LambDynamicLights",
+          "identifier": {
+            "ModrinthProject": "yBW8D80W"
+          }
+        },
+        {
+          "name": "LazyDFU",
+          "identifier": {
+            "ModrinthProject": "hvFnDODi"
+          }
+        },
+        {
+          "name": "Let Me Despawn",
+          "identifier": {
+            "ModrinthProject": "vE2FN5qn"
+          }
+        },
+        {
+          "name": "Lithium",
+          "identifier": {
+            "ModrinthProject": "gvQqBUqZ"
+          }
+        },
+        {
+          "name": "Lookaround!",
+          "identifier": {
+            "CurseForgeProject": 579826
+          }
+        },
+        {
+          "name": "Mod Menu",
+          "identifier": {
+            "ModrinthProject": "mOgUt4GM"
+          }
+        },
+        {
+          "name": "Not Enough Animations",
+          "identifier": {
+            "ModrinthProject": "MPCX6s5C"
+          }
+        },
+        {
+          "name": "Ok Zoomer",
+          "identifier": {
+            "ModrinthProject": "aXf2OSFU"
+          }
+        },
+        {
+          "name": "Open Parties and Claims",
+          "identifier": {
+            "ModrinthProject": "gF3BGWvG"
+          }
+        },
+        {
+          "name": "Phosphor",
+          "identifier": {
+            "ModrinthProject": "hEOCdOgW"
+          }
+        },
+        {
+          "name": "Plasmo Voice",
+          "identifier": {
+            "ModrinthProject": "1bZhdhsH"
+          }
+        },
+        {
+          "name": "Presence Footsteps",
+          "identifier": {
+            "ModrinthProject": "rcTfTZr3"
+          }
+        },
+        {
+          "name": "PurpurClient",
+          "identifier": {
+            "ModrinthProject": "AFirzqTJ"
+          }
+        },
+        {
+          "name": "Quilt Loading Screen",
+          "identifier": {
+            "ModrinthProject": "VPU6VYVP"
+          }
+        },
+        {
+          "name": "Quilted Fabric API (QFAPI) / Quilt Standard Libraries (QSL)",
+          "identifier": {
+            "ModrinthProject": "qvIfYCYJ"
+          }
+        },
+        {
+          "name": "Reese's Sodium Options",
+          "identifier": {
+            "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "Show Me Your Skin!",
+          "identifier": {
+            "ModrinthProject": "bD7YqcA3"
+          }
+        },
+        {
+          "name": "Smooth Swapping",
+          "identifier": {
+            "ModrinthProject": "ydZic5r4"
+          }
+        },
+        {
+          "name": "Sodium",
+          "identifier": {
+            "ModrinthProject": "AANobbMI"
+          }
+        },
+        {
+          "name": "Sodium Extra",
+          "identifier": {
+            "ModrinthProject": "PtjYWJkn"
+          }
+        },
+        {
+          "name": "Status Effect Bars",
+          "identifier": {
+            "ModrinthProject": "x02cBj9Y"
+          }
+        },
+        {
+          "name": "Visuality",
+          "identifier": {
+            "ModrinthProject": "rI0hvYcd"
+          }
+        },
+        {
+          "name": "What's That Slot?",
+          "identifier": {
+            "ModrinthProject": "7b5VoITI"
+          }
+        },
+        {
+          "name": "Wildfire's Female Gender Mod - Fabric & Forge",
+          "identifier": {
+            "ModrinthProject": "bcOsQHnC"
+          }
+        },
+        {
+          "name": "Xaero's World Map",
+          "identifier": {
+            "CurseForgeProject": 317780
+          }
+        },
+        {
+          "name": "YetAnotherConfigLib",
+          "identifier": {
+            "ModrinthProject": "1eAoo2KR"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jenny",
+      "output_dir": "/home/gleb/.minecraft/mods",
+      "game_version": "1.13.2",
+      "mod_loader": "Forge",
+      "mods": []
+    },
+    {
+      "name": "Jen",
+      "output_dir": "/home/gleb/.minecraft/mods",
+      "game_version": "1.19",
+      "mod_loader": "Fabric",
+      "mods": [
+        {
+          "name": "Chunky",
+          "identifier": {
+            "ModrinthProject": "fALzjamp"
+          }
+        }
+      ]
+    }
+  ],
+  "modpacks": []
+}
