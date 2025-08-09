@@ -6,6 +6,7 @@ require('packer').startup(function()
     --        require"startup".setup({theme = "pulsar"})
     --    end
     --}
+    use 'tikhomirov/vim-glsl'
     use 'rcarriga/nvim-notify'
     use 'wbthomason/packer.nvim'
     use 'windwp/nvim-autopairs'

@@ -39,10 +39,6 @@ require'Comment'.setup()
 
 require'telescope'.setup {}
 
-require'lspsaga'.init_lsp_saga {
-    code_action_lightbulb = { enable = false }
-}
-
 require'todo-comments'.setup {}
 
 require'py_lsp'.setup {}

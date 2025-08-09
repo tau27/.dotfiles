@@ -7,18 +7,15 @@
     "spacing": 10,
 
 
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/cmus"],
-    "modules-right": ["custom/weather", "tray", "custom/alsa", "custom/key", "custom/lang", "clock"],
+    "modules-right": ["custom/weather", "tray", "custom/alsa", "custom/key", "hyprland/language", "clock"],
 
-"wlr/workspaces": {
+"hyprland/workspaces": {
      "format": "{icon}",
      "on-scroll-up": "hyprctl dispatch workspace e+1",
-     "on-scroll-down": "hyprctl dispatch workspace e-1",
-     "on-click": "activate",
-     "all-outputs": false,
-     "format": "{icon}",
-    },
+     "on-scroll-down": "hyprctl dispatch workspace e-1"
+},
 
 "keyboard-state": {
         "numlock": true,
@@ -86,7 +83,7 @@
     "format": "{}",
     "format-us": "US",
     "format-ru": "RU",
-    "keyboard-name": "AT Translated Set 2 keyboard"
+    "keyboard-name": "gaming-keyboard"
 },
 
 "custom/alsa": {

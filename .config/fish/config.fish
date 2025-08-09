@@ -3,16 +3,16 @@ if status is-interactive
 end
 
 alias la="ls -la"
-alias pls="sudo "
+alias pwdo="~/Desktop/cllbs/pw/resort.sh"
+alias pls='~/.config/fish/pls.sh '
 alias pswrd="cat ~/Sync/Common/file.txt"
 alias pick=~/.config/fish/picker.sh
+alias rerk=~/Desktop/cllbs/pw/resort.sh
 
 starship init fish | source
 thefuck --alias | source
 
-set PATH $PATH:/home/djamal/.cargo/bin
-set PATH $PATH:/home/gleb/.local/bin
-set PATH $PATH:/home/gleb/bin
+set PATH $PATH:/home/tau/.cargo/bin
 set DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 export LANG=en_US.UTF-8
